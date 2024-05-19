@@ -2,7 +2,7 @@ from database import Base
 from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey
 
 
-
+# This creates the users table 
 class User(Base):
     __tablename__ = 'users'
     username = Column(String(25), primary_key=True, index=True)
@@ -10,6 +10,7 @@ class User(Base):
     password = Column(String(256), nullable=False)
     date_created = Column(Float, nullable=False)
 
+# This creates the Community table
 class Community(Base):
     __tablename__ = 'community'
     community_id = Column(Integer, primary_key=True, index=True)
