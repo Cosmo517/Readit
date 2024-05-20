@@ -1,0 +1,13 @@
+:root {
+    --rich-black: #081423ff;
+    --dark-cyan: #4c8f95ff;
+    --indigo-dye: #004266ff;
+    --blue-gray: #6d9cc5ff;
+    --white: #ffffffff;
+}
+
+.page-wrapper {
+    background: -webkit-radial-gradient(var(--indigo-dye), var(--rich-black));
+    min-height: 100vh; 
+    position: relative;
+}

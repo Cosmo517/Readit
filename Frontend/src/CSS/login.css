@@ -1,0 +1,39 @@
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 4px solid var(--dark-cyan);
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+}
+
+.username-text {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.password-text {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.button-justify-right {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.login-forgot-password-color { 
+    color: white;
+}
+
+.login-forgot-password-color:hover {
+    color: var(--blue-gray);
+}
