@@ -26,7 +26,7 @@ export const ResetPassword = () => {
                 <h4> <center> Reset your password </center> </h4>
                 <form onSubmit={handleFormSubmit}>
                     <input type="text" className="form-control email-text" placeholder="Email" id="email" name="email" onChange ={handleInputChange} value={FormData.username}/>
-                    <button type="submit" className="btn btn-primary button-justify-right">Login</button>
+                    <button type="submit" className="btn btn-primary button-justify-right">Reset Password</button>
                 </form>
             </div>
         </div>

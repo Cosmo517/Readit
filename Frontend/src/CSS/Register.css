@@ -1,4 +1,4 @@
-.login-container {
+.register-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,38 +10,30 @@
     padding: 1%;
 }
 
-.username-text {
+.register-username-text {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 5%;
 }
 
-.password-text {
+.register-password-text {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 2%;
 }
 
-.forgot-password-text {
-    float: right;
-}
-
-.info-text {
-    margin-top: 2%;
-}
-
-.button-justify-right {
+.register-button-justify-right {
     margin-top: 5%;
     width: 96%;
     margin-left: 2%;
 }
 
-.login-forgot-password-color { 
+.register-forgot-password-color { 
     color: white;
 }
 
-.login-forgot-password-color:hover {
+.register-forgot-password-color:hover {
     color: var(--blue-gray);
 }
